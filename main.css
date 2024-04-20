@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+/* Body and * styles */
+* {
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-family: "Architects Daughter", cursive;
+}
+
+body {
+    background-color: #ded6cc;    min-height: calc((1vw + 1vh) * 75);
+    box-shadow: 0 0 0 black, 0 0 6em #8a4d0f inset;
+    background: #fffef0;
+    margin: 0;
+    padding: 2em;
+    font-size: 18px;
+}
+
+/* Scrollbar Styles */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+    box-shadow: 0 0 0 black, 0 0 0.9em #8a4d0f inset;
+}
+  
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    box-shadow: 0 0 0 black, 0 0 0.9em #8a4d0f inset;
+}
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Table Style */
+
+table {
+    width: 100%;
+}
+
+td {
+    width: 14.2%;
+    padding: 10px;
+}
+
+th {
+    border: none;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+/* Table itens style */
+
+svg {
+    width: 1em;
+    margin: 5px;
+}
+
+#tamanho {
+    height: 100vh;
+    vertical-align: top;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Form itens style */
+
+label {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+input, select {
+    border: none;
+    border-bottom: solid 1px #000;
+    background: transparent;
+    width: 300px;
+    font-size: 22px;
+}
+
+option {
+    background-color: #ded6cc;
+    background: #fffef0;
+}

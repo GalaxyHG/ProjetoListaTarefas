@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js" defer></script>
+    <title>Projeto Lista de Tarefas</title>
+</head>
+<body>
+    <h1>Lista de Tarefas</h1><br>
+    <form>
+        <label for="tarefa">Nome da Tarefa:</label>
+        <input type="text" id="tarefa" name="tarefa">
+        <label for="dia">Escolha o dia:</label>
+        <select name="dia" id="dia">
+            <option value="segunda">Segunda-Feira</option>
+            <option value="terca">Terça-Feira</option>
+            <option value="quarta">Quarta-Feira</option>
+            <option value="quinta">Quinta-Feira</option>
+            <option value="sexta">Sexta-Feira</option>
+            <option value="sabado">Sabádo</option>
+            <option value="domingo">Domingo</option>
+        </select>
+    </form><br><br>
+    <div>
+        <table cellspacing="0">
+            <tr>
+                <th>Segunda-Feira</th>
+                <th>Terça-Feira</th>
+                <th>Quarta-Feira</th>
+                <th>Quinta-Feira</th>
+                <th>Sexta-Feira</th>
+                <th>Sabádo</th>
+                <th>Domingo</th>
+            </tr>
+            <tr id="tamanho">
+                <td id="segunda"></td>
+                <td id="terca"></td>
+                <td id="quarta"></td>
+                <td id="quinta"></td>
+                <td id="sexta"></td>
+                <td id="sabado"></td>
+                <td id="domingo"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
